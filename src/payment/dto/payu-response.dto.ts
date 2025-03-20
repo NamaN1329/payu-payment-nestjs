@@ -1,0 +1,34 @@
+export class PayuResponseDto {
+  status: string;
+  txnid: string;
+  amount: string;
+  productinfo: string;
+  firstname: string;
+  email: string;
+  hash: string;
+  mihpayid?: string;
+  error?: string;
+  error_Message?: string;
+  bank_ref_num?: string;
+  bankcode?: string;
+  cardnum?: string;
+  phone?: string;
+  name_on_card?: string;
+  cardtype?: string;
+  unmappedstatus?: string;
+  addedon?: string;
+  mode?: string;
+  field1?: string;
+  field2?: string;
+  field3?: string;
+  field4?: string;
+  field5?: string;
+  field6?: string;
+  field7?: string;
+  field8?: string;
+  field9?: string;
+  field10?: string;
+  discount?: string;
+  net_amount_debit?: string;
+  additional_charges?: string;
+}
